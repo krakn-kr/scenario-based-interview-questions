@@ -7,6 +7,7 @@ import StartStopCounterkrakn from './questions/verizon/StartStopCounterkrakn'
 import TodoAppKrakn from './questions/verizon/TodoAppKrakn'
 import BuggyComponent from './questions/uidev/ErrorBoundaryDemo/BuggyComponent'
 import ErrorBoundary from './questions/uidev/ErrorBoundaryDemo/ErrorBoundary'
+import Counter from './questions/revision/counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,10 +19,11 @@ function App() {
       {/* <TodoApp/> */}
       {/* <StartStopCounterkrakn/> */}
       {/* <TodoAppKrakn/> */}
-      <h1>React Error Boundary Demo</h1>
-      <ErrorBoundary>
+      {/* <h1>React Error Boundary Demo</h1> */}
+      {/* <ErrorBoundary>
         <BuggyComponent />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      <Counter/>
     </>
   )
 }
